@@ -58,3 +58,6 @@ endif
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
+# Init
+TARGET_INIT_VENDOR_LIB := //device/google/gs201:libinit_gs201
