@@ -189,7 +189,6 @@
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL -->
-        <item>2</item> <!-- COLOR_MODE_SATURATED -->
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 
@@ -239,7 +238,7 @@
         <item>"/system/framework/framework.jar"</item>
         <item>"/system/framework/services.jar"</item>
         <item>"/system/bin/surfaceflinger"</item>
-        <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
     </string-array>
 
     <!-- Should the pinner service pin the Home application? -->
@@ -288,4 +287,6 @@
         <item>com.facebook.orca</item>
         <item>com.skype.raider</item>
     </string-array>
+
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
 </resources>

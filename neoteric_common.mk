@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-neoteric
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
@@ -25,6 +25,10 @@ include hardware/google/pixel/lineage_health/device.mk
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts
+
+# Enable Pixel Device Personalization features
+PRODUCT_PACKAGES += \
+    PixelFrameworksOverlay
 
 # Touch
 include hardware/google/pixel/touch/device.mk

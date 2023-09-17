@@ -64,4 +64,9 @@
     <!-- IWLAN-->
     <string name="config_qualified_networks_service_package">com.android.qns</string>
 
+    <!-- Whether device supports QTI Boost Framework -->
+    <bool name="config_supportsBoostFramework">false</bool>
+
+    <!-- Whether device supports in-display fingerprint -->
+    <bool name="config_supportsUdfps">true</bool>
 </resources>
