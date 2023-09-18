@@ -49,5 +49,6 @@
         <name>vendor.samsung_slsi.telephony.hardware.radioExternal</name>
         <transport>hwbinder</transport>
         <fqname>@1.1::IOemSlsiRadioExternal/rilExternal</fqname>
+        <fqname>@1.0::IOemSlsiRadioExternal/rilExternal</fqname>
     </hal>
 </manifest>
