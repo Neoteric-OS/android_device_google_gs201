@@ -36,3 +36,7 @@ include hardware/google/pixel/touch/device.mk
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     packages/modules/Bluetooth/android/app
+
+$(call inherit-product, vendor/google/faceunlock/device.mk)
+
+$(call inherit-product, packages/apps/PixelParts/device.mk)
